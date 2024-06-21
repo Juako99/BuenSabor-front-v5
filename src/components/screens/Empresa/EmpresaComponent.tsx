@@ -130,10 +130,10 @@ const EmpresaComponent: React.FC = () => {
 
                                 <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: 1, gap: 1 }}>
                                     <Button
-                                        startIcon={<AddCircle sx={{ color: '#fb6376' }} />}
+                                        startIcon={<AddCircle sx={{ color: '#FFA500' }} />}
                                         onClick={() => handleAddSucursal(empresa)}
                                         variant="outlined"
-                                        sx={{ color: '#fb6376', borderColor: '#fb6376', fontSize: '0.70rem', padding: '8px 14px' }}
+                                        sx={{ color: '#FFA500', borderColor: '#FFA500', fontSize: '0.70rem', padding: '8px 14px' }}
                                     >
                                         Sucursales
                                     </Button>
@@ -143,7 +143,7 @@ const EmpresaComponent: React.FC = () => {
                                             fetchSucursalesForEmpresa(empresa.id);
                                             navigate(`/empresa/${empresa.id}`);
                                         }}
-                                        sx={{ color: '#ffffff', backgroundColor: '#fb6376', fontSize: '0.70rem', padding: '9px 15px', '&:hover': { backgroundColor: '#fa5064' } }}
+                                        sx={{ color: '#ffffff', backgroundColor: '#FFA500', fontSize: '0.70rem', padding: '9px 15px', '&:hover': { backgroundColor: '#fa5064' } }}
                                     >
                                         Sucursales
                                     </Button>
@@ -154,7 +154,7 @@ const EmpresaComponent: React.FC = () => {
                 )}
                 {isLoading && (
                     <Box sx={{ display: "flex", justifyContent: "center", minHeight: "100vh", marginY: 2 }}>
-                        <CircularProgress sx={{ color: "#fb6376" }} />
+                        <CircularProgress sx={{ color: "#FFA500" }} />
                     </Box>
                 )}
                 <ModalEmpresa

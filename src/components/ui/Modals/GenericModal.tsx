@@ -76,7 +76,7 @@ const GenericModal: React.FC<ModalProps> = ({ modalName, title, initialValues, v
                 <Button 
                   variant="outlined" 
                   onClick={handleClose} 
-                  style={{ marginRight: '10px', color: '#e91e63', borderColor: '#e91e63' }}
+                  style={{ marginRight: '10px', color: '#FFA500', borderColor: '#FFA500' }}
                 >
                   Cerrar
                 </Button>
@@ -85,7 +85,7 @@ const GenericModal: React.FC<ModalProps> = ({ modalName, title, initialValues, v
                   color="primary"
                   type="submit"
                   style={{
-                    backgroundColor: disableSubmit ? '#d3d3d3' : '#e91e63',
+                    backgroundColor: disableSubmit ? '#D3D3D3' : '#FFA500',
                     color: '#fff',
                     cursor: disableSubmit ? 'not-allowed' : 'pointer' 
                   }}

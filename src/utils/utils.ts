@@ -15,8 +15,8 @@ export const onDelete = async (
       text: 'Esta acción no se puede deshacer',
       icon: 'warning',
       showCancelButton: true,
-      confirmButtonColor: '#3085d6',
-      cancelButtonColor: '#d33',
+      confirmButtonColor: '#7DFF37',
+      cancelButtonColor: '#808080',
       confirmButtonText: 'Sí, eliminar',
       cancelButtonText: 'Cancelar',
     });

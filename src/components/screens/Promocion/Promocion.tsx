@@ -113,9 +113,9 @@ const Promocion: React.FC = () => {
                         color="secondary"
                         startIcon={<AddIcon />}
                         sx={{
-                            backgroundColor: '#fb6376',
+                            backgroundColor: '#FE5A1D',
                             "&:hover": {
-                                bgcolor: "#d73754",
+                                bgcolor: "#FFA500",
                             },
                         }}
                         onClick={handleAddPromocion}
@@ -129,7 +129,7 @@ const Promocion: React.FC = () => {
 
                 {isLoading ? (
                     <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
-                        <CircularProgress sx={{ color: '#fb6376' }} />
+                        <CircularProgress sx={{ color: '#FE5A1D' }} />
                     </Box>
                 ) : filteredData.length === 0 ? (
                     <EmptyState

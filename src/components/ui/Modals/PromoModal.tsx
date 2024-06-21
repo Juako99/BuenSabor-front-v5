@@ -67,7 +67,7 @@ const PromoModal: React.FC<PromocionModalProps> = ({ open, onClose, promocion })
                 </Card>
                 <Button 
                     onClick={onClose} 
-                    sx={{ mt: 2, bgcolor: '#e91e63', color: '#fff', '&:hover': { bgcolor: '#d81b60' } }}
+                    sx={{ mt: 2, bgcolor: '#FE5A1D', color: '#fff', '&:hover': { bgcolor: '#FFA500' } }}
                    
                 >
                     Cerrar

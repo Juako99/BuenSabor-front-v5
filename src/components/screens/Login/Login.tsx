@@ -34,9 +34,9 @@ const LoginPage = () => {
           variant="contained"
           color="primary"
           sx={{
-            bgcolor: "#fb6376",
+            bgcolor: "#FE5A1D",
             "&:hover": {
-              bgcolor: "#d73754",
+              bgcolor: "#FFA500",
             },
           }}
           onClick={() => loginWithRedirect({

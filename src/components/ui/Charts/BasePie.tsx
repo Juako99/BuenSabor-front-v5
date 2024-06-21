@@ -63,7 +63,7 @@ const BasePie = () => {
             <Box>
                 {(chartData.length == 0) ? <span> No hay informacion para mostrar un grafico</span> :
                 <PieChart
-                    colors={['#5D2A42', '#FB6376', '#FCB1A6']}
+                    colors={['#FF7F50', '#FFA500', '#FFCC99']}
                     series={[
                         {
                             data: chartData,

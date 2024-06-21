@@ -40,7 +40,7 @@ const TableComponent: React.FC<Props> = ({ data, columns, onEdit, onDelete }) =>
                   <Box sx={{ display: 'flex', justifyContent: 'flex-end', marginTop: '16px' }}>
                     {onEdit && (
                       <IconButton onClick={() => onEdit(item)} size="small">
-                        <EditIcon sx={{ color: '#2196f3' }} /> {/* Color celeste */}
+                        <EditIcon sx={{ color: '#68B1FF' }} /> {/* Color celeste */}
                       </IconButton>
                     )}
                     {onDelete && (

@@ -73,10 +73,10 @@ const ArticuloSeleccionado: React.FC<ArticuloSeleccionadoProps> = ({ onAgregarAr
                     variant='contained'
                     onClick={handleAgregarArticulo}
                     sx={{
-                        bgcolor: '#fb6376',
-                        borderColor: '#fb6376',
+                        bgcolor: '#FE5A1D',
+                        borderColor: '#FE5A1D',
                         "&:hover": {
-                            bgcolor: "#d73754",
+                            bgcolor: "#FFA500",
                         }
                     }}
                 >

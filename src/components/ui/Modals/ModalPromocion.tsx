@@ -452,9 +452,9 @@ const ModalPromocion: React.FC<ModalPromocionProps> = ({
                         startIcon={<PhotoCamera />}
                         sx={{
                             my: 2,
-                            bgcolor: "#fb6376",
+                            bgcolor: "#FFA500",
                             "&:hover": {
-                                bgcolor: "#d73754",
+                                bgcolor: "#00023D",
                             },
                         }}
                     >
