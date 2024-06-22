@@ -38,7 +38,7 @@ const BasicSidebar: React.FC = () => {
         const userDataString = localStorage.getItem('usuario');
         if (userDataString) {
             const userData = JSON.parse(userDataString);
-            const rol = userData["https://my-app.example.com/roles"];
+            const rol = userData["https://test.com/roles"];
             console.log("rol",rol[0]);
             setRole(rol[0]);
         }
