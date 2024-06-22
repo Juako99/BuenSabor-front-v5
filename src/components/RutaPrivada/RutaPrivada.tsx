@@ -15,6 +15,7 @@ const RutaPrivada: React.FC<RutaPrivadaProps> = ({ component: Component, roles }
     const URL = import.meta.env.VITE_API_URL;
     const userDataString = localStorage.getItem('usuario');
     const {logout} = useAuth0();
+    console.log(localStorage);
 
     const showModal = (title: string , text: string, icon: SweetAlertIcon) => {
         Swal.fire({
@@ -69,7 +70,8 @@ const RutaPrivada: React.FC<RutaPrivadaProps> = ({ component: Component, roles }
     }
 
     const userData = JSON.parse(userDataString);
-    const rol = userData["https://my-app.example.com/roles"][0];
+    console.log(userData);
+    const rol = userData["https://test.com/roles"][0];
 
     if (roles && !roles.includes(rol) && idSucursal) {
         return <Navigate to={`/dashboard/${idSucursal}`} replace />;
