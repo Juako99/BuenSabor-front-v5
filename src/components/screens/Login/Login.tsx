@@ -7,7 +7,7 @@ const LoginPage = () => {
   return (
     <Box
       sx={{
-        backgroundImage: `url(https://images.unsplash.com/photo-1633886038251-66242d6cf688?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)`,
+        backgroundImage: `url(https://wallpapers.com/images/featured/food-table-1j6ik0elenqlwh4k.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "100vh",

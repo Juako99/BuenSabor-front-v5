@@ -30,7 +30,9 @@ const Categoria: React.FC = () => {
 
         try {
             setIsLoading(true);
+            
             if (sucursalId !== undefined) {
+                //console.log(`${url}/sucursal/getCategorias/` + parseInt(sucursalId));
                 const categorias = await sucursalService.get(`${url}/sucursal/getCategorias`, parseInt(sucursalId)) as any;
                 dispatch(setCategoria(categorias));
                 setFilteredData(categorias);

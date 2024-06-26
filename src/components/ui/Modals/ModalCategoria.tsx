@@ -13,6 +13,7 @@ import ISucursal from '../../../types/ISucursal';
 import ICategoria from '../../../types/ICategoria';
 import useAuthToken from '../../../hooks/useAuthToken';
 
+
 interface ModalCategoriaProps {
     modalName: string;
     initialValues: CategoriaPost | any;
